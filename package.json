@@ -1,0 +1,19 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "repository": "https://github.com/leuvi/koa2.git",
+  "author": "applebear <528046@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server --exec 'node server'"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "koa-static": "^4.0.2",
+    "nodemon": "^1.17.1"
+  }
+}
