@@ -6,7 +6,7 @@
   "author": "applebear <528046@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server --exec 'node server'"
+    "start": "nodemon --watch server server"
   },
   "dependencies": {
     "koa": "^2.5.0",
@@ -14,6 +14,9 @@
     "koa-router": "^7.4.0",
     "koa-session": "^5.8.1",
     "koa-static": "^4.0.2",
-    "nodemon": "^1.17.1"
+    "koa-views": "^6.1.4",
+    "moment": "^2.21.0",
+    "nodemon": "^1.17.1",
+    "pug": "^2.0.0-rc.4"
   }
 }
